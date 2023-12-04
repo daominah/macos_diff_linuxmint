@@ -41,6 +41,10 @@ This is written by a Linux Mint user, biased but probably true.
 * MacOS has **no default package manager**, have to install [brew](https://brew.sh/)
   or something else. `brew` is so slow compare to Debian `apt`.
 * Default Vietnamese input Simple Telex **cannot fast type "ươ"** by press `][`.
+* Hard to **change default app** to open a file type. Example I did choose to
+  open `.xlsx` file with LibreOffice and remove Microsoft Excel in Applications 
+  dir, somehow Microsoft Excel is always reinstalled and set as default app to
+  open `.xlsx`. This is a fucking virus behavior.
 * Missing feature **copy on select, paste on middle mouse**.
 * Different **hotkeys** that are **impossible or hard to be customized**:
   - No hotkey `Home` to go to the beginning of a text line, alternatives

@@ -5,10 +5,12 @@ This is written by a Linux Mint user, biased but probably true.
 ### Pros:
 
 * TouchID (__fingerprint to unlock__ screen, limit max 3 fingerprints though).
-* Having a __good built-in display__, high resolution and brightness,
+* __Good built-in display__, high resolution and brightness,
   (but top screen have a notch and resolution value is weird,
   14 inch resolution is 3024x1964, 16 inch resolution is 3456x2234)
-* Having a __good built-in speaker__.
+* __Good built-in speaker__.
+* __Good CPU__. Rarely hear the fan noise from M2 Pro (10 cores: 6×P+ 4×E).
+* __Good battery__. 
 * Remember opening apps after restart.
 * Mouse size gets bigger if you are shaking it (help to find it on the display).
 * The dock save recently open apps so user can choose to keep them in the dock.

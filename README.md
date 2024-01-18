@@ -47,6 +47,7 @@ This is written by a Linux Mint user, biased but probably true.
   among windows, minimized window will not be switched to with hotkey).
 * MacOS has __no default package manager__, have to install [brew](https://brew.sh/)
   or something else. `brew` is so slow compare to Debian `apt`.
+* Docker cannot be run in host network mode.
 * Default Vietnamese input Simple Telex __cannot fast type "ươ"__ by press `][`.
 * Missing feature __copy on select, paste on middle mouse__.
 * Cannot use **MouseWheel to zoom** in apps

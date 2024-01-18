@@ -49,6 +49,9 @@ This is written by a Linux Mint user, biased but probably true.
   or something else. `brew` is so slow compare to Debian `apt`.
 * Default Vietnamese input Simple Telex __cannot fast type "ươ"__ by press `][`.
 * Missing feature __copy on select, paste on middle mouse__.
+* Cannot use **MouseWheel to zoom** in apps
+  (default hot key `Cmd +` `Cmd -` is not convenient, 
+  and installing 3rd party software feels uncomfortable).
 * Different __hotkeys__ that are __impossible or hard to be customized__:
   - No hotkey to move active window to other display (others have `Super Shift Arrow`).
   - No hotkey for maximize window (LinuxMint `Alt F10` or Windows `Alt Enter`)
@@ -56,7 +59,6 @@ This is written by a Linux Mint user, biased but probably true.
   - No hotkey `Home` to go to the beginning of a text line, alternatives
     `Cmd Shift ←` does not work in Terminal, `Alt ←` is slow.
   - No hotkey to open Terminal.
-  - Cannot `Ctrl MouseWheel` to zoom in apps (`Cmd +` or `Cmd -` is not convenient).
   - Hotkey for Take Screenshot is `Shift Cmd 3`, should be `PrtSc`.
   - Hotkey `Cmd Space` (Spotlight Search), `Ctrl Space` (Change Language Input)
     conflict with Code Completion hotkey in IDE (luckily you can disable)

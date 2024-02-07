@@ -23,19 +23,23 @@ This is written by a Linux Mint user, biased but probably true.
   It is still better than some older models that only have 2 USB-C ports, no HDMI,
   what the fuck did they smoked.
 * The file explorer __Finder is shit__:
-  - No button to create a new text file in the working directory (or the Desktop).
+  - No button to create a new file in a directory.
+    To create a new file on the Desktop, I have to: open `Finder`: click `Desktop`:
+    right click Desktop on `Path Bar`: `Open in Terminal`: `touch new.txt`,
+    very easy and intuitive.
   - Need to click 2 tiny buttons to open Terminal from the working directory.
+    No hotkey to open Terminal, don't tell me `Cmd Space` to open it with Spotlight.
   - Cannot copy directory path from somewhere else to Finder for opening the path.
     Hard to copy path of the working directory (need to hold `Alt` `RightClick`).
   - Pressing `Enter` will Rename a file, `Enter` should be the main action,
-    how often do you want to Rename a file compare to Open it.
+    how often do you want to Rename a file compare to Open it. `Cmd O` is hard to press.
   - Unintuitive way to change default app to open a file type.
     If you set `Always Open With` for a file, it only works for that specific file,
     not for all files with the same extension.
     You have to `RightClick`: `Get Info`: `Open With`: `Change All` (about 10 clicks). 
 * __Top Menu Bar is shared between apps__, and always on the top edge of the screen.
   This makes the distance from app window to the menu is far
-  (try to use MS Excel without full screen, the menu bar is literally unreachable :v).
+  (try to use MS Excel without full screen, the menu bar is literally unreachable).
   When you need to work with many apps at the same time, you can get confused
   what app is the Menu Bar pointing to. Another consequence is
   the Menu Bar will disappear if an app is running Full Screen mode,
@@ -48,7 +52,6 @@ This is written by a Linux Mint user, biased but probably true.
 * MacOS has __no default package manager__, have to install [brew](https://brew.sh/)
   or something else. `brew` is so slow compare to Debian `apt`.
 * Docker cannot be run in host network mode.
-* Default Vietnamese input Simple Telex __cannot fast type "ươ"__ by press `][`.
 * Missing feature __copy on select, paste on middle mouse__.
 * Cannot use **MouseWheel to zoom** in apps
   (default hot key `Cmd +` `Cmd -` is not convenient,
@@ -57,17 +60,14 @@ This is written by a Linux Mint user, biased but probably true.
   - No hotkey to move active window to other display (others have `Super Shift Arrow`).
     You can set `System settings`: `Keyboard Shortcuts`: `App Shortcuts`: `All Applications`,
     but the hotkeys in many apps do not work.
-  - No hotkey for maximize window (LinuxMint `Alt F10` or Windows `Alt Enter`)
   - Hotkey `Cmd H` hides the active window, no built-in way to disable this shit.
+  - No hotkey for maximize window (LinuxMint `Alt F10` or Windows `Alt Enter`).
   - No hotkey `Home` to go to the beginning of a text line,
     alternatives `Cmd Shift ←` does not work in Terminal, `Alt ←` is slow.
-  - No hotkey to open Terminal.
   - Hotkey for Take Screenshot is `Shift Cmd 3`, should be `PrtSc`.
   - Hotkey `Cmd Space` (Spotlight Search), `Ctrl Space` (Change Language Input)
     conflict with Code Completion hotkey in IDE (luckily you can disable).
   - Hotkey for Cut File is unintuitive:`Cmd C` then `Cmd Alt V`.
-  - Hotkey for Open File is `Cmd O`, should be `Enter`.
-  - Hotkey for Rename is `Enter`, should be `F2`.
   - ...
 
 ### Cons not bother often:
@@ -87,3 +87,18 @@ This is written by a Linux Mint user, biased but probably true.
 * Window min max close buttons on the left and cannot be changed.
 * Default mouse scroll direction is inverted
   (need to change `System Settings: Mouse: Natural Scrolling`).
+
+### Tips
+
+* You can swap `Cmd` and `control` key,
+  so example press `Cmd C` has the same position as `Ctrl C` on a normal keyboard,
+  by changing the setting in `System Settings`: `Customise modifier keys`.
+* If you sometimes produce weird symbols while typing (å∫ç ...),
+  the reason is you press `option` combine with a character, you can disable this
+  by [change setting](https://stackoverflow.com/questions/11876485/how-to-disable-generating-special-characters-when-pressing-the-alta-optiona#comment131744363_41219023)
+  Keyboard Input Sources, remove ABC and add Unicode Hex Input.
+* If you are Vietnamese, Input Sources Telex is better than Simple Telex.
+* If you don't hear your notification sound, e.g. from Slack, check the following:
+  - System Settings: Notifications: Application Notifications
+  - Focus (Do Not Disturb): can be accidentally turn on by hold `option` key and
+    click on the Calendar at the top right of the screen.

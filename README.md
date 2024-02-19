@@ -75,6 +75,9 @@ This is written by a Linux Mint user, biased but probably true.
 * Macbook __memory or storage cannot be upgraded__.
   Apple charges $400 for an option to have more 16GB memory or 1TB storage in 2023,
   as expensive as 5 to 10 times normal price.
+* __Cannot make password visible__ on the login screen.
+  Security your ass, input sources can mess up the tying,
+  good luck with finding what wrong in your password.
 * No built-in way to keep a window always on top of other windows.
 * __Default shell__ is `zsh`, can switch back to `bash` (but very old
   Bash v3.2.57, because newer versions are licensed as GPL3).
